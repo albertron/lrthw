@@ -6,7 +6,8 @@ filename = ARGV.first
 txt = open(filename)
 
 puts "Here's your file #{filename}:"
-# prints file to which is assigned to at the command line, showing what the file contains
+# prints file to which is assigned to at the command line, uses function on 
+# txt called read showing what the file contains with no parameters.
 print txt.read
 
 print "Type the filename again: "

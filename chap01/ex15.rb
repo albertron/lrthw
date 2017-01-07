@@ -2,11 +2,11 @@
 # variable filename. .first gets only one arguement
 filename = ARGV.first
 
-# Text is assigned to the method open filename.
+# Txt holds the value of a file object.
 txt = open(filename)
 
 puts "Here's your file #{filename}:"
-# prints file to which is assigned to at the command line, uses function on 
+# Prints file to which is assigned to at the command line, uses function on 
 # txt called read showing what the file contains with no parameters.
 print txt.read
 
@@ -18,3 +18,6 @@ txt_again = open(file_again)
 
 # Prints second user input in command line.
 print txt_again.read
+
+print txt.close
+print txt_again.close

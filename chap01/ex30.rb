@@ -37,7 +37,9 @@ end
 1. Try guess what elsif and else are doing
 Elsif and else provide other branches to the if statement. if foo is true, performs first block, or if its not see if it falls 
 true to elsif block, for everything else perform else block.
-  
+
+What happens if multiple elsif blocks are true?
+Ruby starts and the top runs the first block that is true, so it will run only the first one  
 =end
 
 if cars > people && trucks > cars

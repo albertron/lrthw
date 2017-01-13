@@ -39,10 +39,10 @@ end
 =begin
 ---STUDY DRILLS---
 1. What do you think the if does to the code under it?
-If statement performs code "if" statement above it lies true.
+If statement performs code "if" statement above it lies true. Skips it otherwise
 
 2. Why does the code under the if need to be indented into two spaces?
-Readability. Makes evaluating the code easier to recognise
+Readability. Makes evaluating the code easier to recognise. Programmers know that this is a block of code
 
 3. What happens if it isn't indented?
 Nothing happens, code still works
